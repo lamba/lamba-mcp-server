@@ -1,0 +1,11 @@
+{
+  "name": "lamba-mcp-server",
+  "version": "1.0.0",
+  "description": "Lambda server for MCP learning resources",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {}
+}

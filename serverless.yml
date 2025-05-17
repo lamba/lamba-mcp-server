@@ -1,0 +1,15 @@
+service: lamba-mcp
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  region: us-east-1
+
+functions:
+  mcpServer:
+    handler: index.handler
+    events:
+      - http:
+          path: /
+          method: post
+          cors: true
