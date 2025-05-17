@@ -1,5 +1,8 @@
 // Lambda function for lamba-mcp-server
-export const handler = async (event) => {
+
+// ES Modules syntax - causing the error
+// export const handler = async (event) => {
+module.exports.handler = async (event) => { // changed from ES Modules syntax to older CommonJS syntax for compatibility with tests; AWS is usually several versions behind
   console.log('Received event:', JSON.stringify(event));
   
   try {
