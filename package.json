@@ -1,6 +1,6 @@
 {
   "name": "lamba-mcp-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lambda server for MCP learning resources",
   "main": "index.js",
   "scripts": {
